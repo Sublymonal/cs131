@@ -1,0 +1,73 @@
+    1  ls
+    2  insights-client --register
+    3  systemctl enable --now cockpit.socket
+    4  ls 
+    5  cd..
+    6  cd ..
+    7  ls
+    8  cd nicholsonsp24/
+    9  ls
+   10  mkdir sampleProject
+   11  ls -ltr
+   12  ls
+   13  cd sampleProject/
+   14  touch sampleFile.txt
+   15  git init
+   16   git commit -m "first commit"
+   17  git config --global user.email "alforquenicholson@gmail.com"
+   18  git config --global user.name "Nicholson Alforque"
+   19   git commit -m "first commit"
+   20  git add -A
+   21  git status
+   22   git commit -m "first commit"
+   23  git branch -M main
+   24  git remote add origin https://github.com/Sublymonal/sampleProject.git
+   25  git push -u origin main
+   26  git status
+   27  git push -u origin main
+   28  git remote add origin https://github.com/Sublymonal/sampleProject.git
+   29  git status
+   30  git push
+   31  exit
+   32  pwd
+   33  exit
+   34  ls
+   35  cd github/
+   36  ls
+   37  git push
+   38  git status
+   39  git add Worksheet1/
+   40  git status
+   41  git push
+   42  git remote add origin https://github.com/Sublymonal/cs131.git
+   43  git push -u origin main
+   44  gh auth status
+   45  git push -u origin main
+   46  ls
+   47  wget www.github.com
+   48  ls
+   49  rm index.html 
+   50  ls
+   51  rm README.md 
+   52  ls
+   53  cd W
+   54  cd Worksheet1/
+   55  git status
+   56  wget www.github.com
+   57  git status
+   58  git add -a
+   59  git commit -a
+   60  git commit -A
+   61  git status
+   62  git push
+   63  git status
+   64  git commit -A "stuff"
+   65  git status
+   66  git add --all
+   67  git status
+   68  git commit
+   69  git commit "pushie pushie"
+   70  git commit -m "pushie pushie"
+   71  git status
+   72  git push
+   73  history > cmds.log

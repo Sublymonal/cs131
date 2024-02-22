@@ -1,1 +1,3 @@
-  238   830 grepMusic.txt
+lines words file  
+238   830  grepMusic.txt
+

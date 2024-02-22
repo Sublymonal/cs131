@@ -1,0 +1,141 @@
+    1  ls
+    2  insights-client --register
+    3  systemctl enable --now cockpit.socket
+    4  ls 
+    5  cd..
+    6  cd ..
+    7  ls
+    8  cd nicholsonsp24/
+    9  ls
+   10  mkdir sampleProject
+   11  ls -ltr
+   12  ls
+   13  cd sampleProject/
+   14  touch sampleFile.txt
+   15  git init
+   16   git commit -m "first commit"
+   17  git config --global user.email "alforquenicholson@gmail.com"
+   18  git config --global user.name "Nicholson Alforque"
+   19   git commit -m "first commit"
+   20  git add -A
+   21  git status
+   22   git commit -m "first commit"
+   23  git branch -M main
+   24  git remote add origin https://github.com/Sublymonal/sampleProject.git
+   25  git push -u origin main
+   26  git status
+   27  git push -u origin main
+   28  git remote add origin https://github.com/Sublymonal/sampleProject.git
+   29  git status
+   30  git push
+   31  exit
+   32  pwd
+   33  exit
+   34  ls
+   35  wget www.github.com
+   36  ls
+   37  mkdir Worksheet1
+   38  ls
+   39  cd Worksheet1/
+   40  git init
+   41  ls
+   42  echo "# cs131" >> README.md
+   43  git init
+   44  git add A-
+   45  git status
+   46  rm dir
+   47  cd ..
+   48  ls
+   49  rm Worksheet1/
+   50  rm -R Worksheet1/
+   51  ls
+   52  mkdir github
+   53  cd git
+   54  cd github/
+   55  mkdir Worksheet1
+   56  ls
+   57  git init
+   58  echo "# cs131" >> README.md
+   59  git init
+   60  git status
+   61  ls
+   62  git add README.md 
+   63  git commit -m "first commit"
+   64  git branch -M main
+   65  git remote add origin https://github.com/Sublymonal/cs131.git
+   66  git push -u origin main
+   67  git remote add origin git@github.com:Sublymonal/cs131.git
+   68  git push -u origin main
+   69  $ git config --global user.name
+   70  $ git config --gloabl user.name
+   71  git config --gloabl user.name
+   72  git config --global user.name
+   73  git push -u origin main
+   74  ls
+   75  cd github/
+   76  ls
+   77  git push
+   78  git status
+   79  git add Worksheet1/
+   80  git status
+   81  git push
+   82  git remote add origin https://github.com/Sublymonal/cs131.git
+   83  git push -u origin main
+   84  gh auth status
+   85  git push -u origin main
+   86  ls
+   87  wget www.github.com
+   88  ls
+   89  rm index.html 
+   90  ls
+   91  rm README.md 
+   92  ls
+   93  cd W
+   94  cd Worksheet1/
+   95  git status
+   96  wget www.github.com
+   97  git status
+   98  git add -a
+   99  git commit -a
+  100  git commit -A
+  101  git status
+  102  git push
+  103  git status
+  104  git commit -A "stuff"
+  105  git status
+  106  git add --all
+  107  git status
+  108  git commit
+  109  git commit "pushie pushie"
+  110  git commit -m "pushie pushie"
+  111  git status
+  112  git push
+  113  history > cmds.log
+  114  ls
+  115  git add -All
+  116  git add --All
+  117  git status
+  118  git commit
+  119  git status
+  120  git add cmds.log 
+  121  git statsu
+  122  git status
+  123  git commiy
+  124  git commit
+  125  git commit -m "added command history"
+  126  git push
+  127  git status
+  128  ls
+  129  cd github/
+  130  ls
+  131  mkdir Worksheet2
+  132  ls
+  133  cd Worksheet2
+  134  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  135  ls
+  136  grep "United States" Global\ YouTube\ Statistics.csv 
+  137  grep "Music" Global\ YouTube\ Statistics.csv > grepMusic.txt
+  138  ls
+  139  wc -lw grepMusic.txt >> counts.txt
+  140  ls
+  141  history > cmds.log

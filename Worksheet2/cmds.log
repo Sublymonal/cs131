@@ -139,3 +139,38 @@
   139  wc -lw grepMusic.txt >> counts.txt
   140  ls
   141  history > cmds.log
+  142  ls
+  143  git init
+  144  git status
+  145  ls
+  146  cd ..
+  147  ls
+  148  git status
+  149  git add Worksheet2/
+  150  git status
+  151  git add Worksheet2/
+  152  ls
+  153  cd Worksheet2
+  154  rm .git
+  155  -r .git
+  156  rm -r .git
+  157  git status
+  158  ls
+  159  cd ..
+  160  git status
+  161  git add Worksheet2/
+  162  git commit -m "added Worksheet2 assignment"
+  163  git push
+  164  ls
+  165  cd Worksheet2
+  166  ls
+  167  nano counts.txt
+  168  cd ..
+  169  git status
+  170  git push
+  171  git status
+  172  git add Worksheet2/counts.txt 
+  173  git commit -m "annotated counts.txt"
+  174  git push
+  175  cd Worksheet2
+  176  history > cmds.log

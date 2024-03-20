@@ -1,252 +1,102 @@
-    1  ls
-    2  insights-client --register
-    3  systemctl enable --now cockpit.socket
-    4  ls 
-    5  cd..
-    6  cd ..
-    7  ls
-    8  cd nicholsonsp24/
-    9  ls
-   10  mkdir sampleProject
-   11  ls -ltr
-   12  ls
-   13  cd sampleProject/
-   14  touch sampleFile.txt
-   15  git init
-   16   git commit -m "first commit"
-   17  git config --global user.email "alforquenicholson@gmail.com"
-   18  git config --global user.name "Nicholson Alforque"
-   19   git commit -m "first commit"
-   20  git add -A
-   21  git status
-   22   git commit -m "first commit"
-   23  git branch -M main
-   24  git remote add origin https://github.com/Sublymonal/sampleProject.git
-   25  git push -u origin main
-   26  git status
-   27  git push -u origin main
-   28  git remote add origin https://github.com/Sublymonal/sampleProject.git
-   29  git status
-   30  git push
-   31  exit
-   32  pwd
-   33  exit
-   34  ls
-   35  wget www.github.com
-   36  ls
-   37  mkdir Worksheet1
-   38  ls
-   39  cd Worksheet1/
-   40  git init
-   41  ls
-   42  echo "# cs131" >> README.md
-   43  git init
-   44  git add A-
-   45  git status
-   46  rm dir
-   47  cd ..
-   48  ls
-   49  rm Worksheet1/
-   50  rm -R Worksheet1/
-   51  ls
-   52  mkdir github
-   53  cd git
-   54  cd github/
-   55  mkdir Worksheet1
-   56  ls
-   57  git init
-   58  echo "# cs131" >> README.md
-   59  git init
-   60  git status
-   61  ls
-   62  git add README.md 
-   63  git commit -m "first commit"
-   64  git branch -M main
-   65  git remote add origin https://github.com/Sublymonal/cs131.git
-   66  git push -u origin main
-   67  git remote add origin git@github.com:Sublymonal/cs131.git
-   68  git push -u origin main
-   69  $ git config --global user.name
-   70  $ git config --gloabl user.name
-   71  git config --gloabl user.name
-   72  git config --global user.name
-   73  git push -u origin main
-   74  ls
-   75  cd github/
-   76  ls
-   77  git push
-   78  git status
-   79  git add Worksheet1/
-   80  git status
-   81  git push
-   82  git remote add origin https://github.com/Sublymonal/cs131.git
-   83  git push -u origin main
-   84  gh auth status
-   85  git push -u origin main
-   86  ls
-   87  wget www.github.com
-   88  ls
-   89  rm index.html 
-   90  ls
-   91  rm README.md 
-   92  ls
-   93  cd W
-   94  cd Worksheet1/
-   95  git status
-   96  wget www.github.com
-   97  git status
-   98  git add -a
-   99  git commit -a
-  100  git commit -A
-  101  git status
-  102  git push
-  103  git status
-  104  git commit -A "stuff"
-  105  git status
-  106  git add --all
-  107  git status
-  108  git commit
-  109  git commit "pushie pushie"
-  110  git commit -m "pushie pushie"
-  111  git status
-  112  git push
-  113  history > cmds.log
-  114  ls
-  115  git add -All
-  116  git add --All
-  117  git status
-  118  git commit
-  119  git status
-  120  git add cmds.log 
-  121  git statsu
-  122  git status
-  123  git commiy
-  124  git commit
-  125  git commit -m "added command history"
-  126  git push
-  127  git status
-  128  ls
-  129  cd github/
-  130  ls
-  131  mkdir Worksheet2
-  132  ls
-  133  cd Worksheet2
-  134  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
-  135  ls
-  136  grep "United States" Global\ YouTube\ Statistics.csv 
-  137  grep "Music" Global\ YouTube\ Statistics.csv > grepMusic.txt
-  138  ls
-  139  wc -lw grepMusic.txt >> counts.txt
-  140  ls
-  141  history > cmds.log
-  142  ls
-  143  git init
-  144  git status
-  145  ls
-  146  cd ..
-  147  ls
-  148  git status
-  149  git add Worksheet2/
-  150  git status
-  151  git add Worksheet2/
-  152  ls
-  153  cd Worksheet2
-  154  rm .git
-  155  -r .git
-  156  rm -r .git
-  157  git status
-  158  ls
-  159  cd ..
-  160  git status
-  161  git add Worksheet2/
-  162  git commit -m "added Worksheet2 assignment"
-  163  git push
-  164  ls
-  165  cd Worksheet2
-  166  ls
-  167  nano counts.txt
-  168  cd ..
-  169  git status
-  170  git push
-  171  git status
-  172  git add Worksheet2/counts.txt 
-  173  git commit -m "annotated counts.txt"
-  174  git push
-  175  cd Worksheet2
-  176  history > cmds.log
-  177  cd ..
-  178  git status
-  179  git add Worksheet2/cmds.log 
-  180  git commit -m "updated cmds.log"
-  181  git push
-  182  ls
-  183  cd github/
-  184  ls
-  185  mkdir Assignment1
-  186  cd Assignment1/
-  187  echo $SHELL
-  188  echo $HOME
-  189  id
-  190  mkdir myDir
-  191  ls-l
-  192  ls -ld myDir
-  193  ls -l
-  194  ls
-  195  cd github/
-  196  ls
-  197  cd Assignment1/
-  198  chmod man
-  199  man chmod
-  200  ls -l myDir
-  201  ls myDir
-  202  ls -ld myDir
-  203  chmod u-w myDir
-  204  ls -ld myDir
-  205  chmod u-w myDir
-  206  ls -ld myDir
-  207  chmod u+w myDir
-  208  ls -ld myDir
-  209  chmod u-w myDir
-  210  ls
-  211  ls -l
-  212  cd myDir/
-  213  mkdir test
-  214  cd ..
-  215  mkdir myDir2
-  216  mkdir myDir3
-  217  ls
-  218  cd myDir2
-  219  touch myFile.txt
-  220  ls
-  221  mv myFile.txt ~/myDir3/myFile.txt
-  222  mv myFile.txt ~github/Assignment1/myDir3/myFile.txt
-  223  mv myFile.txt ~Assignment1/myDir3/myFile.txt
-  224  ls
-  225  cd ..
-  226  ls
-  227  echo $HOME
-  228  mv myFile.txt ~/github/Assignment1/myDir3/myFile.txt
-  229  cd myDir2
-  230  mv myFile.txt ~/github/Assignment1/myDir3/myFile.txt
-  231  ls
-  232  cd
-  233  ls
-  234  cd github/Assignment1/
-  235  cd myDir3
-  236  ls
-  237  cd ..
-  238  echo $SHELL
-  239  id
-  240  free
-  241                total        used        free      shared  buff/cache   available
-  242  Mem:       73080640    33086016    20470656     3581312    19523968    34920064
-  243  Swap:       4218816           0     4218816
-  244                total        used        free      shared  buff/cache   available
-  245  Mem:       73080640    33086016    20470656     3581312    19523968    34920064
-  246  Swap:       4218816           0     4218816
-  247  os
-  248  sw_vers
-  249  cat /etc/
-  250  cat /etc/os-release
-  251  ls -l /etc/os-release
-  252  history > cmd.log
+1    ls
+2    mkdir Assignment1
+3    cd Assignment1/
+4    echo $SHELL    #output: /bin/bash
+5    echo $HOME    #output: /mnt/scratch/SP24_CS131_Jyotika/nicholsonsp24
+6    id    #output: uid=1217(nicholsonsp24) gid=1217(nicholsonsp24) groups=1217(nicholsonsp24),78(S78) belonging to group 1217
+7    mkdir myDir
+8    ls-l
+9    ls -ld myDir
+10   ls -l
+11   ls
+12   cd github/
+13   ls
+14   cd Assignment1/
+15   chmod man
+16   man chmod
+17   ls -l myDir    #output: total 4 drwxrwxr-x 2 nicholsonsp24 nicholsonsp24 4096 Feb 26 20:40 myDir 
+18   ls myDir    #output: myDir
+19   ls -ld myDir
+20   chmod u-w myDir    #output: dr-xrwxr-x 2 nicholsonsp24 nicholsonsp24 4096 Feb 26 20:40 myDir
+21   ls -ld myDir
+22   chmod u-w myDir
+23   ls -ld myDir
+24   chmod u+w myDir
+25   ls -ld myDir
+26   chmod u-w myDir
+27   ls
+28   ls -l
+29   cd myDir/
+30   mkdir test    #output: mkdir: cannot create directory ‘test’: Permission denied
+31   cd ..
+32   mkdir myDir2
+33   mkdir myDir3
+34   ls
+35   cd myDir2
+36   touch myFile.txt    #create a new file named 'myFile' with file extension .txt
+37   ls
+38   mv myFile.txt ~/myDir3/myFile.txt    #attempt failed
+39   mv myFile.txt ~github/Assignment1/myDir3/myFile.txt    #attepmt failed
+40   mv myFile.txt ~Assignment1/myDir3/myFile.txt    #moved file from myDir2 to myDir3
+41   ls
+42   cd ..
+43   ls
+44   echo $HOME
+45   mv myFile.txt ~/github/Assignment1/myDir3/myFile.txt
+46   cd myDir2
+47   mv myFile.txt ~/github/Assignment1/myDir3/myFile.txt
+48   ls
+49   cd
+50   ls
+51   cd github/Assignment1/
+52   cd myDir3
+53   ls
+54   cd ..
+55   echo $SHELL
+56   id
+57   free
+58                 #output:             total        used        free      shared  buff/cache   available    
+59                       Mem:       73080640    33086016    20470656     3581312    19523968    34920064    #total is the total memory physically installed, used is how much memory currently in use, free is how much availiable for use
+60                       Swap:       4218816           0     4218816                                        #swap uses virtual memory when physical memory is in use
+61                                      total        used        free      shared  buff/cache   available
+62                       Mem:       73080640    33086016    20470656     3581312    19523968    34920064
+63                       Swap:       4218816           0     4218816
+64   os
+65   sw_vers
+66   cat /etc/
+67   cat /etc/os-release            #output: NAME="Red Hat Enterprise Linux"
+
+                                    VERSION="8.6 (Ootpa)"
+
+                                    ID="rhel"
+                                    
+                                    ID_LIKE="fedora"
+                                    
+                                    VERSION_ID="8.6"
+                                    
+                                    PLATFORM_ID="platform:el8"
+                                    
+                                    PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"
+                                    
+                                    ANSI_COLOR="0;31"
+                                    
+                                    CPE_NAME="cpe:/o:redhat:enterprise_linux:8::baseos"
+                                    
+                                    HOME_URL="https://www.redhat.com/"
+                                    
+                                    DOCUMENTATION_URL="https://access.redhat.com/documentation/red_hat_enterprise_linux/8/"
+                                    
+                                    BUG_REPORT_URL="https://bugzilla.redhat.com/"
+                                    
+                                      
+                                    
+                                    REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 8"
+                                    
+                                    REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
+                                    
+                                    REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+                                    
+                                    REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
+68   ls -l /etc/os-release          #output: lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
+                                            owner,group,others
+69   history > cmd.log

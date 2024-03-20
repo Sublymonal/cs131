@@ -1,0 +1,91 @@
+1.
+When command: find /etc -type f > one.txt 2> two.txt gets executed,
+the following happens:
+in the /etc as the parent folder, write the directory path of only 'file' types to one.txt
+any errors that would occur, write the error code and path of file in two.txt
+
+2.
+The command used is:
+cut -d',' -f20,21 Global\ YouTube\ Statistics.csv | sort | uniq -c | sort -nr | head -n 3
+
+cut: extracts specific columns
+-d,: separates columns by commas ','
+-f20,21: only get data from columns 20 and 21
+Global\ YouTube\ Statistics.csv: name of target file
+|sort: sorts input lines alphanumeric
+|uniq -c: prefixes each matching line and counts the occurences
+|sort -nr: n sorts numerically r reverses the order to decending
+|head -n 3: output only the first 3
+
+3.
+The command used is:
+ps -u nicholsonsp24 -f
+
+The following output:
+UID          PID    PPID  C STIME TTY          TIME CMD
+nichols+ 3826360       1  0 14:02 ?        00:00:07 /usr/lib/systemd/systemd --user
+nichols+ 3826362 3826360  0 14:02 ?        00:00:00 (sd-pam)
+nichols+ 3830155 3830131  0 14:12 ?        00:00:00 sshd: nicholsonsp24@pts/8
+nichols+ 3830156 3830155  0 14:12 pts/8    00:00:00 -bash
+nichols+ 3888155 3830156  0 16:55 pts/8    00:00:00 ps -u nicholsonsp24 -f
+
+4.
+Output:
+UID          PID    PPID  C STIME TTY          TIME CMD
+nichols+ 3826360       1  0 14:02 ?        00:00:07 /usr/lib/systemd/systemd --u
+nichols+ 3826362 3826360  0 14:02 ?        00:00:00 (sd-pam)
+nichols+ 3830155 3830131  0 14:12 ?        00:00:00 sshd: nicholsonsp24@pts/8
+nichols+ 3830156 3830155  0 14:12 pts/8    00:00:00 -bash
+nichols+ 3889228 3889218  0 16:58 ?        00:00:00 sshd: nicholsonsp24@pts/10
+nichols+ 3889229 3889228  0 16:58 pts/10   00:00:00 -bash
+nichols+ 3889603 3830156  0 16:59 pts/8    00:00:00 vim file.txt
+nichols+ 3890203 3889229  0 17:00 pts/10   00:00:00 ps -u nicholsonsp24 -f
+
+The difference is that vim file.txt shows up because there is an existing
+process from another open terminal.
+
+Process ID for VIM is 3889603
+
+Once closed, the process is removed from the list as it no longer exists
+as a running process
+
+5.
+The init process is the first process executed once VM or system boots
+1 is the parent process id
+3826360 is the unique process id for the current user
+
+Command used:
+ps aux | grep systemd
+
+Output:
+root           1  0.6  0.0 178624 18432 ?        Ss    2023 849:25 /usr/lib/systemd/systemd --switched-root --system --deserialize 18
+root        2951  0.0  0.3 278080 224960 ?       Ss    2023 121:21 /usr/lib/systemd/systemd-journald
+root        2998  0.0  0.0  56512 15680 ?        Ss    2023   0:08 /usr/lib/systemd/systemd-udevd
+dbus        3706  0.4  0.0  16512 10560 ?        Ss    2023 562:06 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        3746  0.0  0.0  35776 14208 ?        Ss    2023  93:01 /usr/lib/systemd/systemd-logind
+conners+   86087  0.0  0.0  28736 15168 ?        Ss   Mar13   6:55 /usr/lib/systemd/systemd --user
+gradysp+  105881  0.0  0.0  28736 15168 ?        Ss   Mar13   7:34 /usr/lib/systemd/systemd --user
+justins+ 2060795  0.0  0.0  28736 15168 ?        Ss   Feb22  23:26 /usr/lib/systemd/systemd --user
+jessesp+ 2073814  0.0  0.0  28736 15168 ?        Ss   Feb22  25:19 /usr/lib/systemd/systemd --user
+atishay+ 2248654  0.0  0.0  28736 15168 ?        Ss   Feb08  32:50 /usr/lib/systemd/systemd --user
+hardiks+ 2379540  0.0  0.0  28736 15168 ?        Ss   Feb23  22:45 /usr/lib/systemd/systemd --user
+diyasp24 2422345  0.0  0.0  28736 15232 ?        Ss   Feb09  32:22 /usr/lib/systemd/systemd --user
+sangsp24 2492008  0.0  0.0  28736 15168 ?        Ss   Feb24  22:28 /usr/lib/systemd/systemd --user
+roberts+ 2808486  0.0  0.0  28736 15232 ?        Ss   Mar18   2:20 /usr/lib/systemd/systemd --user
+alexsp24 3304023  0.0  0.0  28736 15168 ?        Ss   Mar11   9:36 /usr/lib/systemd/systemd --user
+jyotika  3312757  0.0  0.0  28736 15168 ?        Ss   Mar11   9:28 /usr/lib/systemd/systemd --user
+edisons+ 3433756  0.0  0.0  28736 15168 ?        Ss   Mar19   1:02 /usr/lib/systemd/systemd --user
+tylerms+ 3523835  0.0  0.0  28736 15232 ?        Ss   Mar19   0:42 /usr/lib/systemd/systemd --user
+nichols+ 3826360  0.0  0.0  28672 15104 ?        Ss   14:02   0:08 /usr/lib/systemd/systemd --user
+yelinsp+ 3827628  0.0  0.0  28736 15168 ?        Ss   14:05   0:09 /usr/lib/systemd/systemd --user
+breanna+ 3847556  0.0  0.0  28736 15168 ?        Ss   15:01   0:06 /usr/lib/systemd/systemd --user
+briansp+ 3851417  0.0  0.0  28672 15104 ?        Ss   15:12   0:06 /usr/lib/systemd/systemd --user
+gursimr+ 3854249  0.0  0.0  28736 15232 ?        Ss   Feb28  19:37 /usr/lib/systemd/systemd --user
+benjami+ 3892044  0.0  0.0  28608 15040 ?        Ss   17:05   0:00 /usr/lib/systemd/systemd --user
+nichols+ 3894650  0.0  0.0   8320  1792 pts/10   S+   17:13   0:00 grep --color=auto systemd
+
+6.
+ps: shows active processes
+a: all active processes
+u: shows detailed user information
+x: shows processes outside of the terminal

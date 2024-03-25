@@ -1,0 +1,105 @@
+Task 1:
+Sort the "highest_monthly_earnings" in order to find the highest monthly earner from 3 different countries: United States, United Kingdom, and India
+
+Answer:
+United States, 9200000
+India, 9000000
+United Kingom, 2000000
+
+Command used: cut -d',' -f8,16 "Global YouTube Statistics.csv" | sort -t',' -k1,1 -k2,2nr| awk -F',' '!seen[$1]++'
+
+Output:
+Afghanistan,0
+Andorra,0.34
+Argentina,2600000
+Australia,1600000
+Bangladesh,0
+Barbados,731700
+Brazil,6500000
+Canada,2200000
+Chile,400900
+China,89400
+Colombia,1900000
+Country,highest_monthly_earnings
+Cuba,0.38
+Ecuador,251600
+Egypt,184200
+El Salvador,135400
+Finland,81500
+France,192400
+Germany,3000000
+India,9000000
+Indonesia,2200000
+Iraq,452000
+Italy,4900000
+Japan,2900000
+Jordan,676200
+Kuwait,631600
+Latvia,5000000
+Malaysia,470900
+Mexico,1500000
+Morocco,150300
+nan,8100000
+Netherlands,400200
+Pakistan,5300000
+Peru,4000
+Philippines,3200000
+Russia,2900000
+Samoa,2
+Saudi Arabia,540100
+Singapore,468800
+South Korea,13600000
+Spain,1100000
+Sweden,1900000
+Switzerland,235500
+Thailand,944000
+Turkey,5900000
+Ukraine,1500000
+United Arab Emirates,6400000
+United Kingdom,2000000
+United States,9200000
+Venezuela,14
+Vietnam,1000000
+
+By using the command above, I was able to get and show only the highest earning of each country
+cut: only column interest are Country and highest_monthly_earnings
+sort -t: sort by ',' field separator 
+-k1,1: column 1 sort alphabetically
+-k2,2nr: column 2 sort numerically reversed
+awk -F',' !seen[$1]++: parse the given line with  ',' and if the given line is seen from column 1, do not print. If it hasnt been seen, print and give the value of the string +1. In short, only print lines with value of 0.
+
+
+
+Task2: Sort the "#Subscribers" in order to find the highest subscribed channel from 3 different categories: Sports, Education, and Entertainment
+
+Answer:
+Entertainment, 166000000
+Education, 162000000
+Sports, 96000000
+
+Command Used:cut -d',' -f3,5 "Global YouTube Statistics.csv" | sort -t',' -k1,2nr| awk -F',' '!seen[$2]++'
+
+Output:
+
+245000000,Music
+170000000,Film & Animation
+166000000,Entertainment
+162000000,Education
+159000000,Shows
+119000000,nan
+112000000,People & Blogs
+111000000,Gaming
+96000000,Sports
+80100000,Howto & Style
+57600000,News & Politics
+44200000,Comedy
+41400000,Trailers
+38600000,Nonprofits & Activism
+31700000,Science & Technology
+28400000,Movies
+23700000,Pets & Animals
+21600000,Autos & Vehicles
+12500000,Travel & Events
+subscribers,category
+
+Same as task 1 but sorted -k1 numerically and reversed, and awk was for column 2

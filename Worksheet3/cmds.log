@@ -1,0 +1,7 @@
+   16  cut -d',' -f3,5 "Global YouTube Statistics.csv" | sort -t',' -k1,2nr -k1,1| awk -F',' '!seen[$2]++' >> ws3.txt 
+   17  history > cmds.log
+   18  ls
+   19  vim ws3.txt 
+   20  cut -d',' -f3,5 "Global YouTube Statistics.csv" | sort -t',' -k1,2nr| awk -F',' '!seen[$2]++'
+   21  vim ws3.txt 
+   22  history > cmds.log

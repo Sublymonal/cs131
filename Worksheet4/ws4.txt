@@ -1,0 +1,719 @@
+Script started on 2024-04-08 21:43:43-04:00
+bash-4.4$ vi ~.[K/..[Kbash_profile 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"~/.bash_profile" 2L, 41C[1;1Halias l = 'ls -ltr'
+alias w = 'ls -l|wc'
+[94m~                                                                                                                                           [4;1H~                                                                                                                                           [5;1H~                                                                                                                                           [6;1H~                                                                                                                                           [7;1H~                                                                                                                                           [8;1H~                                                                                                                                           [9;1H~                                                                                                                                           [10;1H~                                                                                                                                           [11;1H~                                                                                                                                           [12;1H~                                                                                                                                           [13;1H~                                                                                                                                           [14;1H~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [1;1H[?25h[malias l   [?25l[52;1H[1m-- INSERT --[m[52;13H[K[1;9H[?25h[?25l= 'ls -ltr'[1;19H[K[1;8H[?25h= [?25l'ls -ltr'[1;18H[K[1;9H[?25h[2;9H [?25l= 'ls -l|wc'[2;20H[K[2;8H[?25h= [?25l'ls -l|wc'[2;19H[K[2;9H[?25h[52;1H[K[2;8H[?25l[?25h[?25l[52;1H:[?2004h[?25hwq[?25l[?2004l"~/.bash_profile" 2L, 37C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ soutr[K[Krce ~/.bash_profile 
+bash-4.4$ l
+total 4
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 4096 Apr  8 21:44 ws4.txt
+bash-4.4$ w
+      2      11      75
+bash-4.4$ pwd
+/mnt/scratch/SP24_CS131_Jyotika/nicholsonsp24/github/Worksheet4
+bash-4.4$ cd ..
+bash-4.4$ cd Worksheet3
+bash-4.4$ ls
+ cmds.log  'Global YouTube Statistics.csv'   ws3.txt
+bash-4.4$ pc "[K'Global YouTube Statistics.csv' ~/[K/[K/github/Worksheet4
+bash: pc: command not found
+bash-4.4$ pc 'Global YouTube Statistics.csv' ~/github/Worksheet4[1P/github/Worksheet4./github/Worksheet4./github/Worksheet4[C[C[C[C[C[C[C[C[C[C
+bash: pc: command not found
+bash-4.4$ pc 'Global YouTube Statistics.csv' ../github/Worksheet4[1P~/github/Worksheet4../github/Worksheet4[1P~/github/Worksheet4[C[C[C[C[C[C[C[C[C[Cls[Kpc 'Global YouTube Statistics.csv' ~/github/Worksheet4[C[C[C[C[C[C[C[C[C[Cls[Kpc 'Global YouTube Statistics.csv' ~/github/Worksheet4[1P[C[1@p
+bash-4.4$ cd .. [K
+bash-4.4$ cd Worksheet4/
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   ws4.txt
+bash-4.4$ mkdir Subscribers
+bash-4.4$ l
+total 208
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24   8192 Apr  8 21:46  ws4.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 21:48  Subscribers
+bash-4.4$ awk -F, '$8 == "u[KUnit4ed[K[K[Ked States" {print$4[K3} 'G[K[K"g[KG[K[KGl[K[K[C[1@ [C[C[C[C"Global Yout[KTube Statistics.csv" >S[K Subscribers/United_state[K[K[K[K[KStates.txt
+> dfd[K[K[K
+> l
+> Z[K'
+awk: cmd. line:1: $8 == "United States" {print $3} "Global YouTube Statistics.csv" > Subscribers/United_States.txt
+awk: cmd. line:1:                                                                                             ^ syntax error
+bash-4.4$ awk -F, '$8 == "United States" {print $3} "Global YouTube Statistics.csv" > Subscribers/United_States.txt
+
+l
+'[K[K[A[C[K[K[A[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'
+awk: cmd. line:1: $8 == "United States" {print $3} "Global YouTube Statistics.csv" > Subscribers/United_States.txt
+awk: cmd. line:1:                                                                                             ^ syntax error
+bash-4.4$ awk -F, '$8 == "United States" {print $3} "Global YouTube Statistics.csv" > Subscribers/United_States.txt'/ Subscribers/United_States.txt'[1@ [C[C[1PSubscribers/United_States.txt'
+awk: cmd. line:1: $8 == "United States" {print $3} "Global YouTube Statistics.csv" > /Subscribers/United_States.txt
+awk: cmd. line:1:                                                                                              ^ syntax error
+bash-4.4$ awk -F, '$8 == "United States" {print $3} "Global YouTube Statistics.csv" > /Subscribers/United_States.txt'[C[1Ptxt'.txt'
+awk: cmd. line:1: $8 == "United States" {print $3} "Global YouTube Statistics.csv" > /Subscribers/United_States.txt
+awk: cmd. line:1:                                                                                              ^ syntax error
+bash-4.4$ awk -F, '$8 == "United States" {print $3} "Global YouTube Statistics.csv" > /Subscribers/United_States.txt'[C[1@'[C[1@'[1P[1P[C[C[C[C[Kawk -F, '$8 == "United States" {print $3} "Global YouTube Statistics.csv" > /Subscribers/United_States.txt'[K[C[1@'[1P[C[1@'
+bash: /Subscribers/United_States.txt: No such file or directory
+bash-4.4$ awk -F, '$8 == "United States" {print $3}' "Global YouTube Statistics.csv" > /Subscribers/United_States.txt[1PSubscribers/United_States.txt
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   Subscribers   ws4.txt
+bash-4.4$ l
+total 212
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24  12288 Apr  8 22:02  ws4.txt
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 22:02  Subscribers
+bash-4.4$ cd Subscribers/
+bash-4.4$ ls
+United_States.txt
+bash-4.4$ cs[Kat United_States.txt 
+170000000
+166000000
+162000000
+112000000
+98900000
+96000000
+75000000
+68200000
+59500000
+59500000
+56900000
+56400000
+52900000
+52700000
+52200000
+47900000
+46600000
+44200000
+42400000
+42400000
+40900000
+39200000
+38600000
+38200000
+38200000
+38000000
+37900000
+37600000
+36700000
+36600000
+36300000
+35200000
+35200000
+34900000
+33700000
+33600000
+32800000
+32700000
+31700000
+31700000
+31600000
+31600000
+31200000
+30700000
+30700000
+30400000
+30400000
+30300000
+30200000
+30100000
+29600000
+29200000
+28400000
+28200000
+27500000
+27500000
+27400000
+27300000
+27000000
+26700000
+26700000
+26500000
+26400000
+26200000
+26100000
+26000000
+25700000
+25700000
+25600000
+25500000
+25400000
+25200000
+25100000
+24800000
+24700000
+24600000
+24600000
+24400000
+24100000
+24100000
+24100000
+24000000
+23900000
+23900000
+23900000
+23800000
+23800000
+23700000
+23700000
+23600000
+23600000
+23300000
+23200000
+23200000
+23100000
+23100000
+22900000
+22700000
+22600000
+22600000
+22600000
+22500000
+22500000
+22300000
+22200000
+22000000
+22000000
+21900000
+21900000
+21900000
+21800000
+21800000
+21600000
+21500000
+21300000
+21300000
+21300000
+21100000
+21000000
+21000000
+21000000
+20900000
+20900000
+20900000
+20700000
+20700000
+20700000
+20500000
+20400000
+20200000
+20100000
+20100000
+20100000
+20100000
+20100000
+20100000
+20100000
+20000000
+20000000
+19800000
+19800000
+19700000
+19700000
+19600000
+19600000
+19600000
+19600000
+19200000
+19100000
+19100000
+19000000
+18800000
+18800000
+18600000
+18400000
+18400000
+18300000
+18300000
+18100000
+18100000
+18000000
+18000000
+18000000
+17900000
+17900000
+17900000
+17900000
+17900000
+17900000
+17800000
+17700000
+17500000
+17400000
+17300000
+17200000
+17100000
+17000000
+16900000
+16900000
+16900000
+16900000
+16700000
+16700000
+16700000
+16600000
+16500000
+16500000
+16500000
+16400000
+16400000
+16300000
+16300000
+16300000
+16300000
+16300000
+16200000
+16200000
+16200000
+16100000
+16100000
+16100000
+15900000
+15900000
+15900000
+15800000
+15700000
+15600000
+15500000
+15500000
+15400000
+15400000
+15400000
+15300000
+15200000
+15100000
+15100000
+15100000
+15000000
+15000000
+15000000
+15000000
+15000000
+14900000
+14900000
+14900000
+14800000
+14800000
+14800000
+14800000
+14800000
+14800000
+14700000
+14700000
+14700000
+14700000
+14700000
+14700000
+14600000
+14600000
+14600000
+14600000
+14500000
+14500000
+14500000
+14500000
+14500000
+14500000
+14400000
+14400000
+14400000
+14400000
+14400000
+14400000
+14300000
+14300000
+14200000
+14100000
+14100000
+14000000
+13900000
+13900000
+13900000
+13900000
+13900000
+13800000
+13600000
+13600000
+13600000
+13500000
+13500000
+13400000
+13400000
+13400000
+13400000
+13400000
+13300000
+13300000
+13300000
+13300000
+13300000
+13300000
+13300000
+13200000
+13200000
+13200000
+13100000
+13100000
+13100000
+13100000
+13000000
+13000000
+12900000
+12900000
+12900000
+12800000
+12800000
+12700000
+12700000
+12700000
+12700000
+12700000
+12600000
+12600000
+12500000
+12500000
+12500000
+12500000
+12400000
+12400000
+12400000
+12400000
+12400000
+12400000
+bash-4.4$ cat United_States.txt [C[C[C[C[C[C[C[C[C[C[Kcat United_States.txt [C[C[C[C[C[C[C[C[C[Cls[Kcat United_States.txt [C[C[C[C[C[C[C[C[C[C[Kcd ..
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   Subscribers   ws4.txt
+bash-4.4$ G[Klscd ..at United_States.txt [C[C[C[C[C[C[C[C[C[Cls[Kcd Subscribers/[C[C[C[C[C[C[C[C[C[Cl[Ksawk -F, '$8 == "United States" {print $3}' "Global YouTube Statistics.csv" > Subscribers/United_States.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtI.txtn.txtd.txti.txta.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@N[1P[1@n[1@d[1@i[1@a[C
+bash-4.4$ awk '{si[Kum+= +=[C[C $1};END{print sm[Kum}' Subscribers/United_States.txt 
+7329500000
+bash-4.4$ awk '{sum += $1};END{print sum}' Subscribers/United_States.txt [C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1P[1P[1@I[8@ndia.txt
+awk: fatal: cannot open file `Subscribers/India.txt.txt' for reading (No such file or directory)
+bash-4.4$ awk '{sum += $1};END{print sum}' Subscribers/India.txt.txt [K[K[K[K[K
+4310600000
+bash-4.4$ awk '{sum += $1};END{print sum}' Subscribers/India.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.txt [4@United_States[C[C[C[C[C[C[C[C[C[1@/[1@N[1@R
+2.34169e+07
+bash-4.4$ awk '{sum += $1};END{print sum/NR}' Subscribers/United_States.txt > ~/[K/[K[K[C[C[C[C[C[C[C[C[K[K[K[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtI.txtndia.txt.txt
+awk: fatal: cannot open file `Subscribers/India.txt.txt' for reading (No such file or directory)
+bash-4.4$ awk '{sum += $1};END{print sum/NR}' Subscribers/India.txt.txt[K[K[K[K
+2.56583e+07
+bash-4.4$ l
+total 216
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24  16384 Apr  8 22:03  ws4.txt
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 22:04  Subscribers
+bash-4.4$ lawk '{sum += $1};END{print sum/NR}' Subscribers/India.txt.txtUnited_States.txt >U[K United [K_state[K[K[K[K[KStates_Mean.txt
+bash-4.4$ l
+total 220
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24  16384 Apr  8 22:03  ws4.txt
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 22:04  Subscribers
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  United_States_Mean.txt
+bash-4.4$ cat United_States_Mean.txt 
+2.34169e+07
+bash-4.4$ cat United_States_Mean.txt [C[C[C[C[C[C[C[C[C[Cl[Kawk '{sum += $1};END{print sum/NR}' Subscribers/United_States.txt > United_States_Mean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txt[1PMean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txt[1P_Mean.txtI_Mean.txtn_Mean.txtd_Mean.txti_Mean.txta_Mean.txt[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@d[1@i[1@a
+bash-4.4$ awk '{sum += $1};END{print sum/NR}' Subscribers/India.txt > India_Mean.txt[C[C[C[C[C[C[C[C[C[C[47Pcat United_States_Mean.txt [C[C[C[C[C[C[C[C[C[Cawk '{sum += $1};END{print sum/NR}' Subscribers/India.txt > India_Mean.txt[C[C[C[C[C[C[C[C[C[C[Kl
+total 224
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24  16384 Apr  8 22:03  ws4.txt
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 22:04  Subscribers
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  United_States_Mean.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  India_Mean.txt
+bash-4.4$ lawk '{sum += $1};END{print sum/NR}' Subscribers/India.txt > India_Mean.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[47Pcat United_States_Mean.txt [C[C[C[C[C[C[C[C[C[Cl[Kawk '{sum += $1};END{print sum/NR}' Subscribers/United_States.txt > United_States_Mean.txt[C[1@ [1@"[1@U[1@n[1@i[1@t[1@e[1@d[C[1@ [1@S[1@t[1@a[1@t[1@e[1@s[C[1@ [1@M[1@e[1@a[1@n[1@:[1@"[1@,[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txt[1PMean.txtwMean.txtsMean.txt4Mean.txt_Mean.txt[C[1Pean.txtmean.txt[C[C[C[Cs.txt[C[C[C[C
+bash-4.4$ awk '{sum += $1};END{print "United States Mean:", sum/NR}' Subscribers/United_States.txt > ws4_means.txt[C> ws4_means.txt[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[8@ndia.txt[1P[1P[1P[1P[1P[1@n[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@d[1@i[1@a
+bash-4.4$ awk '{sum += $1};END{print "India Mean:", sum/NR}' Subscribers/India.txt >> ws4_means.txt[C[C[C[C[C[C[C[C[C[C[Kl
+total 236
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 22:04  Subscribers
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  United_States_Mean.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  India_Mean.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24  20480 Apr  8 22:12  ws4.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     56 Apr  8 22:14  ws4_means.txt
+bash-4.4$ cat ws4_means.txt 
+United States Mean: 2.34169e+07
+India Mean: 2.56583e+07
+bash-4.4$ vi greetings.txt
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"greetings.txt" [New File][2;1H[94m~                                                                                                                                           [3;1H~                                                                                                                                           [4;1H~                                                                                                                                           [5;1H~                                                                                                                                           [6;1H~                                                                                                                                           [7;1H~                                                                                                                                           [8;1H~                                                                                                                                           [9;1H~                                                                                                                                           [10;1H~                                                                                                                                           [11;1H~                                                                                                                                           [12;1H~                                                                                                                                           [13;1H~                                                                                                                                           [14;1H~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [1;1H[?25h[?25l[m[52;1H[1m-- INSERT --[m[52;13H[K[1;1H[?25h[?25lHello, John Doe!
+Hi, Jane Doe![2;14H[K[3;1HGreetings, John Smith![3;23H[K[4;1HHello, Mi[4;10H[K[4;10H[?25h[?25lchael Johnson!
+Hi, Emily Davis![5;17H[K[5;17H[?25h[?25l:[?25h[?25lw[?25h[?25lq[?25h[?25l[5;19H[K[5;19H[?25h[?25l[5;18H[K[5;18H[?25h[?25l[5;17H[K[5;17H[?25h[52;1H[K[5;16H[?25l[?25h[?25l[52;1H:[?2004h[?25hwq[?25l[?2004l"greetings.txt" [New] 5L, 95C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ l
+total 248
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 22:04  Subscribers
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  United_States_Mean.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  India_Mean.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     56 Apr  8 22:14  ws4_means.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24  28672 Apr  8 22:15  ws4.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     95 Apr  8 22:15  greetings.txt
+bash-4.4$ pwd
+/mnt/scratch/SP24_CS131_Jyotika/nicholsonsp24/github/Worksheet4
+bash-4.4$ [Kbash-4.4$ [Kbash-4.4$ l[Kcat greetings.txt [K
+Hello, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ sed -i [K[K[K's/Ge[K[KGe[K[KHello/Hi' gt[Kreetings.txt > greetings.txt [1@_[1@e[1@d[1@i[1@t[1@e[1@d[C[C[C[C[C
+sed: -e expression #1, char 10: unterminated `s' command
+bash-4.4$ sed 's/Hello/Hi' greetings.txt > greetings_edited.txt [1@-[1@e[1@ 
+sed: -e expression #1, char 10: unterminated `s' command
+bash-4.4$ cat greetings_edited.txt 
+bash-4.4$ cat greetings_edited.txt [K[K[K[K[K[K[K[K[K[K[K[K/[K.,[Ktxt 
+Hello, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ ls
+'Global YouTube Statistics.csv'   greetings.txt    Subscribers		    ws4_means.txt
+ greetings_edited.txt		  India_Mean.txt   United_States_Mean.txt   ws4.txt
+bash-4.4$ vi greetings_edited.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"greetings_edited.txt" 0L, 0C[2;1H[94m~                                                                                                                                           [3;1H~                                                                                                                                           [4;1H~                                                                                                                                           [5;1H~                                                                                                                                           [6;1H~                                                                                                                                           [7;1H~                                                                                                                                           [8;1H~                                                                                                                                           [9;1H~                                                                                                                                           [10;1H~                                                                                                                                           [11;1H~                                                                                                                                           [12;1H~                                                                                                                                           [13;1H~                                                                                                                                           [14;1H~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [1;1H[?25h[?25l[m[52;1H[K[52;1H:[?2004h[?25hq[?25l[?2004l[52;1H[K[52;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vi greetings_edited.txt [C[C[C[C[C[C[C[C[C[Cls[Kcat greetings.txt [7@_edited[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32@sed -e 's/Hello/Hi' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+sed: -e expression #1, char 10: unterminated `s' command
+bash-4.4$ sed -e 's/Hello/Hi' greetings.txt > greetings_edited.txt [C[1@/[1@g
+bash-4.4$ catr [K[K greetings_edited.txt 
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[34@sed -e 's/Hello/Hi/g' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@D[1@e[1P[1@o[1@e[1@/[1@d[C[C[C[C[C[C[C[C[C[C[C[1@_[1@e[1@d[1@i[1@t[1@e[1@d[C[C[C[C[C[C[C
+sed: -e expression #1, char 2: extra characters after command
+bash-4.4$ sed -e 'Doe/d' greetings_edited.txt > greetings_edited.txt [C[1P[1P[1P
+sed: -e expression #1, char 2: extra characters after command
+bash-4.4$ sed 'Doe/d' greetings_edited.txt > greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-e [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@/
+bash-4.4$ sed -e '/Doe/d' greetings_edited.txt > greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-e [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ cat greetings_edited.txt 
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[35@sed -e '/Doe/d' greetings_edited.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-e [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34@sed -e 's/Hello/Hi/g' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ cat greetings_edited.txt 
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[34@sed -e 's/Hello/Hi/g' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@/[1@D[1@o[1@e[1@/[1@d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@>
+bash-4.4$ sed '/Doe/d' greetings.txt >> greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[26Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[26@sed '/Doe/d' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34@sed -e 's/Hello/Hi/g' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1@$[C[C[1P[1@ [1@([1@e[1@d[1@i[1@t[1@e[1@d[1@)
+sed: -e expression #1, char 13: unterminated `s' command
+bash-4.4$ sed -e 's/$/ (edited)' greetings.txt > greetings_edited.txt [1P
+sed: -e expression #1, char 12: unterminated `s' command
+bash-4.4$ sed -e 's/$/(edited)' greetings.txt > greetings_edited.txt [C[1P[1P[1P
+sed: -e expression #1, char 12: unterminated `s' command
+bash-4.4$ sed 's/$/(edited)' greetings.txt > greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@>
+sed: -e expression #1, char 12: unterminated `s' command
+bash-4.4$ sed 's/$/(edited)' greetings.txt >> greetings_edited.txt [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-e [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26@sed '/Doe/d' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[32@sed 's/$/(edited)' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-e [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26@sed '/Doe/d' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34@sed -e 's/Hello/Hi/g' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ sed -e 's/Hello/Hi/g' greetings.txt > greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[34Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[34@sed -e 's/Hello/Hi/g' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[32@sed 's/$/(edited)' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@-e [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26@sed '/Doe/d' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ sed '/Doe/d' greetings.txt >> greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[26Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[26@sed '/Doe/d' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[34@sed -e 's/Hello/Hi/g' greetings.txt >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@$[1@/[1@([1@e[1P[1P[1@([1@e[1@d[1@i[1@t[1@e[1@d[1@)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@>
+sed: -e expression #1, char 12: unterminated `s' command
+bash-4.4$ sed -e 's/$/(edited)' greetings.txt >> greetings_edited.txt [1P
+sed: -e expression #1, char 4: unknown command: `('
+bash-4.4$ sed -e '/$/(edited)' greetings.txt >> greetings_edited.txt [1@"[C[C[C[C[C[C[C[C[1@"[C
+sed: -e expression #1, char 4: unknown command: `"'
+bash-4.4$ sed -e '/$/"(edited)"' greetings.txt >> greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P(edited)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[C[C[1@s[C[C[C[C[C[1@ [C[C[C[C[C[C[C[1P
+sed: -e expression #1, char 13: unterminated `s' command
+bash-4.4$ sed 's/$/ (edited)' greetings.txt >> greetings_edited.txt [C[1@/
+bash-4.4$ cat greetings_edited.txt 
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+bash-4.4$ sed '/^Hello/Michael J[K[K/Mike/' greetings.txt >> greetings_edited.txt 
+bash-4.4$ sed '/^Hello/Michael/Mike/' greetings.txt >> greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[41Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Hi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+chael/Mike/
+Hello, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+chael/Mike/
+Hello, Michael Johnson!
+Hi, Emily Davis!
+bash-4.4$ cat greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[41@sed '/^Hello/Michael/Mike/' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41Pcat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kvi greetings_edited.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"greetings_edited.txt" 20L, 412C[1;1HHi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+chael/Mike/
+Hello, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+chael/Mike/
+Hello, Michael Johnson!
+Hi, Emily Davis!
+[94m~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [1;1H[?25h[?25l[m[52;1H[1m-- INSERT --[m[52;13H[K[1;1H[?25h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hi, Emily Davis![?25l[20;16H[K[20;16H[?25h[?25l[20;15H[K[20;15H[?25h[?25l[20;14H[K[20;14H[?25h[?25l[20;13H[K[20;13H[?25h[?25l[20;12H[K[20;12H[?25h[?25l[20;11H[K[20;11H[?25h[?25l[?25h[?25l[20;9H[K[20;9H[?25h[?25l[20;8H[K[20;8H[?25h[?25l[20;7H[K[20;7H[?25h[?25l[20;6H[K[20;6H[?25h[?25l[20;5H[K[20;5H[?25h[?25l[?25h[?25l[20;3H[K[20;3H[?25h[?25l[20;2H[K[20;2H[?25h[?25l[20;1H[K[20;1H[?25h[?25l[94m~                                                                                                                                           [19;24H[?25h[?25l[m[19;23H[K[19;23H[?25h[?25l[19;21H[K[19;21H[?25h[?25l[19;20H[K[19;20H[?25h[?25l[19;19H[K[19;19H[?25h[?25l[19;18H[K[19;18H[?25h[?25l[19;17H[K[19;17H[?25h[?25l[19;16H[K[19;16H[?25h[?25l[?25h[?25l[19;14H[K[19;14H[?25h[?25l[19;13H[K[19;13H[?25h[?25l[19;12H[K[19;12H[?25h[?25l[19;11H[K[19;11H[?25h[?25l[19;10H[K[19;10H[?25h[?25l[19;9H[K[19;9H[?25h[?25l[19;8H[K[19;8H[?25h[?25l[?25h[?25l[19;6H[K[19;6H[?25h[?25l[19;5H[K[19;5H[?25h[?25l[19;4H[K[19;4H[?25h[?25l[19;3H[K[19;3H[?25h[?25l[19;2H[K[19;2H[?25h[?25l[19;1H[K[19;1H[?25h[?25l[94m~                                                                                                                                           [18;12H[?25h[?25l[m[18;11H[K[18;11H[?25h[?25l[18;10H[K[18;10H[?25h[?25l[18;8H[K[18;8H[?25h[?25l[18;7H[K[18;7H[?25h[?25l[18;6H[K[18;6H[?25h[?25l[18;5H[K[18;5H[?25h[?25l[18;4H[K[18;4H[?25h[?25l[18;3H[K[18;3H[?25h[?25l[18;2H[K[18;2H[?25h[?25l[18;1H[K[18;1H[?25h[?25l[94m~                                                                                                                                           [17;23H[?25h[?25l[m[17;22H[K[17;22H[?25h[?25l[17;21H[K[17;21H[?25h[?25l[17;20H[K[17;20H[?25h[?25l[17;19H[K[17;19H[?25h[?25l[17;18H[K[17;18H[?25h[?25l[17;17H[K[17;17H[?25h[?25l[?25h[?25l[17;15H[K[17;15H[?25h[?25l[17;14H[K[17;14H[?25h[?25l[17;13H[K[17;13H[?25h[?25l[17;12H[K[17;12H[?25h[?25l[?25h[?25l[17;10H[K[17;10H[?25h[?25l[17;9H[K[17;9H[?25h[?25l[17;8H[K[17;8H[?25h[?25l[17;7H[K[17;7H[?25h[?25l[17;6H[K[17;6H[?25h[?25l[17;5H[K[17;5H[?25h[?25l[17;4H[K[17;4H[?25h[?25l[17;3H[K[17;3H[?25h[?25l[17;2H[K[17;2H[?25h[?25l[17;1H[K[17;1H[?25h[?25l[94m~                                                                                                                                           [16;14H[?25h[?25l[m[16;13H[K[16;13H[?25h[?25l[16;12H[K[16;12H[?25h[?25l[16;11H[K[16;11H[?25h[?25l[16;10H[K[16;9H[?25h[?25l[16;8H[K[16;8H[?25h[?25l[16;7H[K[16;7H[?25h[?25l[16;6H[K[16;6H[?25h[?25l[16;5H[K[16;5H[?25h[?25l[?25h[?25l[16;3H[K[16;3H[?25h[?25l[16;2H[K[16;2H[?25h[?25l[16;1H[K[16;1H[?25h[?25l[94m~                                                                                                                                           [15;17H[?25h[?25l[m[15;16H[K[15;16H[?25h[?25l[15;15H[K[15;15H[?25h[?25l[15;14H[K[15;14H[?25h[?25l[15;13H[K[15;13H[?25h[?25l[?25h[?25l[15;11H[K[15;11H[?25h[?25l[15;10H[K[15;10H[?25h[?25l[15;9H[K[15;9H[?25h[?25l[15;8H[K[15;8H[?25h[?25l[?25h[?25l[15;6H[K[15;6H[?25h[?25l[15;5H[K[15;5H[?25h[?25l[15;4H[K[15;4H[?25h[?25l[15;3H[K[15;3H[?25h[?25l[15;2H[K[15;2H[?25h[?25l[15;1H[K[15;1H[?25h[?25l[94m~                                                                                                                                           [14;12H[?25h[?25l[m[14;11H[K[14;11H[?25h[?25l[14;10H[K[14;10H[?25h[?25l[14;9H[K[14;9H[?25h[?25l[14;8H[K[14;8H[?25h[?25l[14;7H[K[14;7H[?25h[?25l[14;6H[K[14;6H[?25h[?25l[14;5H[K[14;5H[?25h[?25l[14;4H[K[14;4H[?25h[?25l[14;3H[K[14;3H[?25h[?25l[14;2H[K[14;2H[?25h[?25l[14;1H[K[14;1H[?25h[?25l[94m~                                                                                                                                           [13;26H[?25h[m[52;1H[K[13;25H[?25l[?25h[12;25H[?25l[52;1H:[?2004h[?25hwq[?25l[?2004l"greetings_edited.txt" 13L, 293C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vim greetings_edited.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"greetings_edited.txt" 13L, 293C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HHi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+[94m~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H1,1[11CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HHi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+[94m~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H1,1[11CAll"greetings_edited.txt" 13L, 293C[1;1H[?25h[?25l[52;113H~@k[1;1H[52;113H   [1;2H[52;125H2[1;2H[?25h[?25l[52;113H~@k[1;2H[52;113H   [1;3H[52;125H3[1;3H[?25h[?25l[52;113H~@k[1;3H[52;113H   [2;3H[52;123H2[2;3H[?25h[?25l[52;113H~@k[2;3H[52;113H   [3;3H[52;123H3[3;3H[?25h[?25l[52;113H:[3;3H[52;1H[K[52;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[52;1H[K[52;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vim .vimrc ~/[K[K/~[K[K[K[K[K[K[K[K[K~/.vimrv[Kc
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"~/.vimrc" [New File][2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                                                                           [3;1H~                                                                                                                                           [4;1H~                                                                                                                                           [5;1H~                                                                                                                                           [6;1H~                                                                                                                                           [7;1H~                                                                                                                                           [8;1H~                                                                                                                                           [9;1H~                                                                                                                                           [10;1H~                                                                                                                                           [11;1H~                                                                                                                                           [12;1H~                                                                                                                                           [13;1H~                                                                                                                                           [14;1H~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H0,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[94m~                                                                                                                                           [3;1H~                                                                                                                                           [4;1H~                                                                                                                                           [5;1H~                                                                                                                                           [6;1H~                                                                                                                                           [7;1H~                                                                                                                                           [8;1H~                                                                                                                                           [9;1H~                                                                                                                                           [10;1H~                                                                                                                                           [11;1H~                                                                                                                                           [12;1H~                                                                                                                                           [13;1H~                                                                                                                                           [14;1H~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H0,0-1[9CAll"~/.vimrc" [New File][1;1H[?25h[?25l[52;113Hn[1;1H[52;1H[97m[41mE35: No previous regular expression[m[52;113H[K[1;1H[52;123H0,0-1[9CAll[1;1H[?25h[?25l[52;113Ho[1;1H[52;113H [2;1H[52;1H[1m-- INSERT --[m[52;13H[K[52;123H2,1[11CAll[2;1H[K[2;1H[?25h[?25l[94m~                                                                                                                                           [m[52;123H1[1;1H[?25h[?25l[93mn[m[52;125H2[1;2H[?25h[?25l[93mn[m[52;125H3[1;3H[?25h[?25l[93mo[m[52;125H4[1;4H[?25h[?25l[93mr[m[52;125H5[1;5H[?25h[?25l[93me[m[52;125H6[1;6H[?25h[?25l[93mm[m[52;125H7[1;7H[?25h[?25l[93ma[m[52;125H8[1;8H[?25h[?25l[1;7H[K[52;125H7[1;7H[?25h[?25lnnoremp[52;125H8[1;8H[?25h[?25l[52;125H9[1;9H[?25h[?25l[52;125H8[1;8H[?25h[?25l[52;125H9[1;9H[?25h[?25l[52;125H8[1;8H[?25h[?25l[93mnnorem[m[1;7H[K[52;125H7[1;7H[?25h[?25l[1;6H[K[52;125H6[1;6H[?25h[?25l[1;5H[K[52;125H5[1;5H[?25h[?25l[1;4H[K[52;125H4[1;4H[?25h[?25l[1;3H[K[52;125H3[1;3H[?25h[?25l[1;2H[K[52;125H2[1;2H[?25h[?25l[1;1H[K[52;125H1[1;1H[?25h[?25l[93mn[m[52;125H2[1;2H[?25h[?25lnh[52;125H3[1;3H[?25h[?25lo[52;125H4[1;4H[?25h[?25l[1;3H[K[52;125H3[1;3H[?25h[?25l[93mn[m[1;2H[K[52;125H2[1;2H[?25h[?25l[93mo[m[52;125H3[1;3H[?25h[?25l[93mr[m[52;125H4[1;4H[?25h[?25l[93me[m[52;125H5[1;5H[?25h[?25l[93mm[m[52;125H6[1;6H[?25h[?25l[93ma[m[52;125H7[1;7H[?25h[?25l[93mp[m[52;125H8[1;8H[?25h[?25l[52;125H9[1;9H[?25h[?25l[52;125H8[1;8H[?25h[?25l[1;7H[K[52;125H7[1;7H[?25h[?25l[1;6H[K[52;125H6[1;6H[?25h[?25l[1;5H[K[52;125H5[1;5H[?25h[?25l[1;4H[K[52;125H4[1;4H[?25h[?25l[1;3H[K[52;125H3[1;3H[?25h[?25l[1;2H[K[52;125H2[1;2H[?25h[?25l[1;1H[K[52;125H1[1;1H[?25h[?25l[93mnoremap[m [38;5;224m<Up>[m [38;5;224m<Nop>[m
+[93mnoremap[m [38;5;224m<Down>[m [38;5;224m<Nop>[m[2;21H[K[3;1H[93mnoremap[m[3;8H[K[3;8H[?25h[?25l [38;5;224m<Left>[m [38;5;224m<Nop>[m
+[93mnoremap[m [38;5;224m<Right>[m [38;5;224m<Nop>[m[4;22H[K[52;123H4,22[4;22H[?25h[52;1H[K[4;21H[?25l[52;113H^[[4;21H[52;113H  [4;22H[52;123H4,21[10CAll[4;21H[?25h[?25l[52;113H:[4;21H[52;113H[K[52;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"~/.vimrc" [New] 4L, 83C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ vim ~/.vimrcgreetings_edited.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"greetings_edited.txt" 13L, 293C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HHi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+[94m~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H3,1[11CAll[3;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HHi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+[94m~                                                                                                                                           [15;1H~                                                                                                                                           [16;1H~                                                                                                                                           [17;1H~                                                                                                                                           [18;1H~                                                                                                                                           [19;1H~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H3,1[11CAll"greetings_edited.txt" 13L, 293C[3;1H[?25h[?25l[52;125H2[3;2H[?25h[?25l[52;123H2[2;2H[?25h[?25l[52;123H3[3;2H[?25h[?25l[52;125H3[3;3H[?25h[?25l[52;123H2[2;3H[?25h[?25l[52;123H3[3;3H[?25h[?25l[52;125H4[3;4H[?25h[?25l[52;125H5[3;5H[?25h[?25l[52;125H6[3;6H[?25h[?25l[52;125H7[3;7H[?25h[?25l[52;125H8[3;8H[?25h[?25l[52;125H9[3;9H[?25h[?25l[52;125H10[3;10H[?25h[?25l[52;125H9 [3;9H[?25h[?25l[52;125H10[3;10H[?25h[?25l[52;123H2[2;10H[?25h[?25l[52;123H3[3;10H[?25h[?25l[52;126H1[3;11H[?25h[?25l[52;1H[K[52;1H:[?2004h[?25hq[?25l[?25h[?25l[?2004l[52;1H[K[52;1H[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ l
+total 324
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 200279 Apr  8 21:47 'Global YouTube Statistics.csv'
+drwxrwxr-x 2 nicholsonsp24 nicholsonsp24   4096 Apr  8 22:04  Subscribers
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  United_States_Mean.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     12 Apr  8 22:12  India_Mean.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     56 Apr  8 22:14  ws4_means.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24     95 Apr  8 22:15  greetings.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24    293 Apr  8 23:10  greetings_edited.txt
+-rw-rw-r-- 1 nicholsonsp24 nicholsonsp24 102400 Apr  8 23:15  ws4.txt
+bash-4.4$ lvim greetings_edited.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[13P~/.vimrcgreetings_edited.txt [C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[41@sed '/^Hello/Michael/Mike/' greetings.txt >>[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@J[1@o[1@h[1@n[1@s[1@o[1@n[C[C[C[C[C[1@ [1@J[1@o[1@h[1@n[1@s[1@o[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kbash-4.4$ sed '/^Hello/Michael Johnson/Mike Johnson/' greetings.txt >> greetings_edited.txt [Kbash-4.4$ sed '/^Hello/Michael Johnson/Mike Johnson/' greetings.txt >> greetings_edited.txt [Kbash-4.4$ sed '/^Hello/Michael Johnson/Mike Johnson/' greetings.txt >> greetings_edited.txt [Kbash-4.4$ sed '/^Hello/Michael Johnson/Mike Johnson/' greetings.txt >> greetings_edited.txt [C[1@s[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash-4.4$ vim greetings_edited.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;52r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[52;1H"greetings_edited.txt" 18L, 385C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1HHi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+Hello, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hello, Mike Johnson!
+Hi, Emily Davis!
+[94m~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H3,1[11CAll[3;1H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HHi, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hi, Michael Johnson!
+Hi, Emily Davis!
+Greetings, John Smith!
+Hello, Michael Johnson!
+Hi, Emily Davis!
+Hello, John Doe! (edited)
+Hi, Jane Doe! (edited)
+Greetings, John Smith! (edited)
+Hello, Michael Johnson! (edited)
+Hi, Emily Davis! (edited)
+Hello, John Doe!
+Hi, Jane Doe!
+Greetings, John Smith!
+Hello, Mike Johnson!
+Hi, Emily Davis!
+[94m~                                                                                                                                           [20;1H~                                                                                                                                           [21;1H~                                                                                                                                           [22;1H~                                                                                                                                           [23;1H~                                                                                                                                           [24;1H~                                                                                                                                           [25;1H~                                                                                                                                           [26;1H~                                                                                                                                           [27;1H~                                                                                                                                           [28;1H~                                                                                                                                           [29;1H~                                                                                                                                           [30;1H~                                                                                                                                           [31;1H~                                                                                                                                           [32;1H~                                                                                                                                           [33;1H~                                                                                                                                           [34;1H~                                                                                                                                           [35;1H~                                                                                                                                           [36;1H~                                                                                                                                           [37;1H~                                                                                                                                           [38;1H~                                                                                                                                           [39;1H~                                                                                                                                           [40;1H~                                                                                                                                           [41;1H~                                                                                                                                           [42;1H~                                                                                                                                           [43;1H~                                                                                                                                           [44;1H~                                                                                                                                           [45;1H~                                                                                                                                           [46;1H~                                                                                                                                           [47;1H~                                                                                                                                           [48;1H~                                                                                                                                           [49;1H~                                                                                                                                           [50;1H~                                                                                                                                           [51;1H~                                                                                                                                           [m[52;123H3,1[11CAll"greetings_edited.txt" 18L, 385C[3;1H[?25h[?25l[52;125H2[3;2H[?25h[?25l[52;123H2[2;2H[?25h[?25l[52;123H1[1;2H[?25h[?25l[52;125H3[1;3H[?25h[?25l[52;123H2[2;3H[?25h[?25l[52;123H3[3;3H[?25h[?25l[52;123H4[4;3H[?25h[?25l[52;123H5[5;3H[?25h[?25l[52;1H[K[52;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[52;3H[K[52;3H[?25hq[?25l[?25h[?25l[?2004l"greetings_edited.txt" 18L, 385C written
+[?2004l[?1l>[?25h[?1049l[23;0;0tbash-4.4$ exit
+
+Script done on 2024-04-08 23:18:33-04:00

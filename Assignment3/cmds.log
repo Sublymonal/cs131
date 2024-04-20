@@ -1,0 +1,114 @@
+cd cs131
+ls
+Assignment 3
+
+mkdir Assignment3
+cd Assignment3
+wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/last.fake
+wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/passwd.fake
+
+Task 1
+
+echo -e "Assignment 3\nTask 1:\n" >> Assignment3.txt
+man last
+echo -e "1. The number of lines in last.fake before filtering\n" >> Assignment3.txt 
+man tee
+wc -l last.fake | tee -a Assignment3.txt 
+echo -e "\n2. The command used to solve" >> Assignment3.txt 
+sed '\sp24\p' last.fake > lastsp24.fake
+sed '/sp24/p' last.fake > lastsp24.fake
+vi lastsp24.fake
+sed -n '/sp24/p' last.fake > lastsp24.fake
+vi lastsp24.fake 
+echo -e "sed -n '/sp24/p' last.fake > lastsp24.fake" >> Assignment3.txt
+echo -e "\n3. The number of lines in lastsp24.fake" >> Assignment3.txt 
+wc -l lastsp24.fake | tee -a Assignment3.txt
+vi Assignment3.txt 
+
+Task 2
+
+echo -e "\nTask 2:" >> Assignment3.txt 
+awk '/Sun/ {print $1}' lastsp24.fake > temp
+vi temp
+awk '/Sun/ {print $1}' lastsp24.fake | sort -u > temp
+vi temp
+echo -e "\nThe command used to solve: awk '/Sun/ {print \$1}' lastsp24.fake | sort -u\n\nThe list of people who worked on Sunday are:" >> Assignment3.txt
+awk '/Sun/ {print $1}' lastsp24.fake | sort -u >> Assignment3.txt 
+vi Assignment3.txt 
+
+Task 3
+
+echo -e "\nTask 3:\n" >> Assignment3.txt
+awk '1,5 {print $6, $8}' lastsp24.fake > temp
+vi temp
+sed -n '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake > temp
+vi temp
+man sed
+sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake > temp
+vi temp
+sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' > temp
+vi temp
+sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' | sort -u > temp
+vi temp
+echo -e "The command used to solve: sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' | sort -u " >> Assignment3.txt 
+echo -e "\nNight Owls List:" >> Assignment3.txt
+sed -En '/^.*(([2][3])|([0][0-3])):[0-5][0-9] - ((([2][3])|([0][0-3]))|(04:00))/p' lastsp24.fake | awk '{print $1}' | sort -u >> Assignment3.txt 
+vi Assignment3.txt 
+
+Task 4
+
+echo -e "\nTask 4:\n" >> Assignment3.txt 
+sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print $1}' | sort -u > temp
+vi temp
+echo -e "The command used to solve: sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print $1}' | sort -u" >> Assignment3.txt
+echo -e "\nEarly Birds List:" >> Assignment3.txt 
+sed -En '/^.*([0][5-8]):[0-5][0-9] - (([0][5-8])|(09:00))/p' lastsp24.fake | awk '{print $1}' | sort -u >> Assignment3.txt 
+vi Assignment3.txt 
+
+Task 5
+
+echo -e "\nTask 5:" >> Assignment3.txt 
+sed -n '/^t/p' lastsp24.fake > temp
+vi temp
+sed -n '/^t/p' lastsp24.fake | awk '{print $1}' > temp
+vi temp
+sed -n '/^t/p' lastsp24.fake | awk '{print $1}' | sort -u > temp
+vi temp
+echo -e "\nThe command used to solve: sed -n '/^t/p' lastsp24.fake | awk '{print $1}' | sort -u" >> Assignment3.txt 
+echo -e "\nOutput of command:" >> Assignment3.txt
+sed -n '/^t/p' lastsp24.fake | awk '{print $1}' | sort -u >> Assignment3.txt 
+vi Assignment3.txt 
+
+Task 6
+
+echo -e "\nTask 6:" >> Assignment3.txt
+awk -F: '{$1 == /^a/} {print }' passwd.fake > temp
+vi temp
+awk -F: '{$1 ~ /^a/} {print }' passwd.fake > temp
+vi temp
+awk -F: '$1 ~ /^a/ {print }' passwd.fake > temp
+vi temp
+awk -F: '$1 ~ /^a/ && $3%2 == 0 {print }' passwd.fake > temp
+vi temp
+awk -F: '$1 ~ /^a/ && $3%2 == 0 {print $1}' passwd.fake | sort -u > temp
+vi temp
+echo -e "\nThe command used to solve: awk -F: '$1 ~ /^a/ && $3%2 == 0 {print $1}' passwd.fake | sort -u" >> Assignment3.txt 
+echo -e "\nOutput of command:" >> Assignment3.txt 
+awk -F: '$1 ~ /^a/ && $3%2 == 0 {print $1}' passwd.fake | sort -u >> Assignment3.txt 
+vi Assignment3.txt 
+
+Task 7
+
+echo -e "\nTask 7:" >> Assignment3.txt 
+sed 's/[A-z]//g; s/[0-9]//g; s/ //g' passwd.fake > temp
+sed -e 's/[A-z]//g; s/[0-9]//g; s/ //g' passwd.fake > temp
+sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake > temp
+vi temp
+sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake | sort -u > temp
+vi temp
+echo -e "\nThe command used to solve: sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake | sort -u" >> Assignment3.txt
+echo -e "\nOutput of command:" >> Assignment3.txt 
+sed -e 's/[a-Z]//g; s/[0-9]//g; s/ //g' passwd.fake | sort -u >> Assignment3.txt 
+vi Assignment3.txt 
+history  > cmds.log
+
